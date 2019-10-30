@@ -3,9 +3,9 @@
 *A Julia interface for retrieving data from the U.S. Bureau of Economic Analysis (BEA)
 Data API.*
 
-| **Documentation** | **Repo Status** | **Build Status** | **Coverage** |
-|:-------------:|:-------------:|:----------------:|:------------:|
-|[![][docs-stable-img]][docs-stable-url]|[![Project Status: Active][repo-img]][repo-url] | [![][travis-img]][travis-url] [![AppVeyor][appveyor-img]][appveyor-url] | [![codecov.io][codecov-img]][codecov-url] |
+|**Repo Status**| **Build Status** | **Coverage** |
+|:-------------:|:----------------:|:------------:|
+|[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.][repo-img]][repo-url] | [![][travis-img]][travis-url] [![AppVeyor][appveyor-img]][appveyor-url] | [![codecov.io][codecov-img]][codecov-url] |
 
 
 ## Installation
@@ -13,9 +13,11 @@ Data API.*
 At the Julia REPL:
 
 ```julia
-    (v1.1) pkg> add BeaData
+    (v1.0) pkg> add BeaData
 ```
-A UserID is required to use the BEA's API. A UserID can be obtained by registering [here](http://www.bea.gov/API/signup/index.cfm).
+## Usage
+
+A valid User ID key is required to use the BEA's API. A User ID can be obtained by registering [here](http://www.bea.gov/API/signup/index.cfm).
 
 ## Disclaimer
 BeaData.jl is not affiliated with, officially maintained, or otherwise supported by the Bureau of Economic Analysis.

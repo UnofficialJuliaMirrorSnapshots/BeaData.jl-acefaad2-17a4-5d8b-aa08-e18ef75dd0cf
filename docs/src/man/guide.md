@@ -1,14 +1,4 @@
-# BeaData.jl
-
-A Julia interface for retrieving data from the U.S. Bureau of Economic Analysis (BEA) Data API.
-
-## Installation
-
-At the Julia REPL:
-
-```julia
-    Pkg.add("BeaData")
-```
+# Package Guide
 
 For now, the package only retrieves full tables from the standard National
 Income and Product Accounts (NIPA) (i.e., no downloads of single data series or
@@ -69,10 +59,4 @@ function to retreive a `Dict` of `TableNames` and descriptions.
 
 The `DataFrame` returned by a call to the API has dates in the first column and
 the table data in the remaining columns.  Data columns are named for the corresponding
-line numbers of the NIPA table (e.g., `:line1`, `:line2`, etc.).
-
-## Index
-
-```@index
-Pages = ["lib/public.md"]
-```
+line numbers of the NIPA table (e.g., `:line1`, `:line2`, etc.).  
